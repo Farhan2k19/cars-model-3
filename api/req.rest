@@ -1,0 +1,14 @@
+# Add Data request
+GET http://localhost:3000/cars
+
+###
+
+
+POST http://localhost:3000/newCar
+Content-Type: application/json
+
+{
+    "name": "Bugatti",
+    "model": "ABC",
+    "color": "Blue"
+}
